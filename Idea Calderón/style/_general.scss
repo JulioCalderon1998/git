@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Quicksand:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+main{
+    grid-area: main;
+    .titulo{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 50px;
+        color: rgb(122, 93, 29);
+    }   
+}
+
+
+@media(max-width: 480px){
+    header{
+        grid-area: header;
+        background-color: rgb(136, 93, 14);
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .barrnav{
+        display: flex;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            border: 10px;
+            margin-top: 25px;
+            height: 50px;
+            background-color: #e6c88a;
+        
+        a{
+            text-decoration:none ;
+            color:black;
+            font-size: 12px;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    }
+    .barrnav :hover{
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+    }
+
+    .footer{
+        grid-area: footer;
+        background-color: rgb(136, 93, 14);
+        height: 250px;
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        background-image: linear-gradient(to top, rgb(136, 93, 14),rgb(247, 213, 164));
+        .mapafooter{
+            display: flex;
+            justify-content: center;
+        }
+        .grupofooter h2{
+            display: flex;
+            align-items: center;
+            font-size: 15px;    
+            flex-direction: column;
+            font-family: cursive;
+            border: 5px;
+        }
+    }
+}
+
+
+@media(min-width: 481px){
+    header{
+        grid-area: header;
+        background-color: rgb(136, 93, 14);
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .barrnav{
+        display: flex;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            border: 10px;
+            margin-top: 25px;
+            height: 50px;
+            background-color: #e6c88a;
+        
+        a{
+            text-decoration:none ;
+            color:black;
+            font-size: 17px;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    }
+    .barrnav :hover{
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+    }
+
+    .footer{
+        grid-area: footer;
+        background-color: rgb(136, 93, 14);
+        height: 250px;
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        background-image: linear-gradient(to top, rgb(136, 93, 14),rgb(247, 213, 164));
+        .mapafooter{
+            display: flex;
+            justify-content: center;
+        }
+        .grupofooter h2{
+            display: flex;
+            align-items: center;
+            font-size: 17px;    
+            flex-direction: column;
+            font-family: cursive;
+            border: 5px;
+        }
+    }
+}
+
+@media(min-width: 769px){
+    header{
+        grid-area: header;
+        background-color: rgb(136, 93, 14);
+        height: 100px;
+        background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .barrnav{
+        display: flex;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            border: 10px;
+            margin-top: 25px;
+            height: 50px;
+            background-color: #e6c88a;
+        
+        a{
+            text-decoration:none ;
+            color:black;
+            font-size: 25px;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }   
+    }
+    }
+    .barrnav :hover{
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+    
+}
+
+    .footer{
+        grid-area: footer;
+        background-color: rgb(136, 93, 14);
+        height: 250px;
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        background-image: linear-gradient(to top, rgb(136, 93, 14),rgb(247, 213, 164));
+        .mapafooter{
+            display: flex;
+            justify-content: center;
+        }
+        .grupofooter h2{
+            display: flex;
+            align-items: center;
+            font-size: 20px;    
+            flex-direction: column;
+            font-family: cursive;
+            border: 5px;
+        }
+    }
+}
+
+
+@media(min-width: 1026px){
+    header{
+        grid-area: header;
+        background-color: rgb(136, 93, 14);
+        height: 130px;
+        background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .barrnav{
+        display: flex;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            border: 10px;
+            margin-top: 20px;
+            height: 80px;
+            background-color: #e6c88a;
+        
+        a{
+            text-decoration:none ;
+            color:black;
+            font-size: 30px;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    }
+    .barrnav :hover{
+        transform: scale(1.1);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+    }
+
+    .footer{
+        grid-area: footer;
+        background-color: rgb(136, 93, 14);
+        height: 300px;
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        background-image: linear-gradient(to top, rgb(136, 93, 14),rgb(247, 213, 164));
+        .mapafooter{
+            display: flex;
+            justify-content: center;
+        }
+        .grupofooter h2{
+            display: flex;
+            align-items: center;
+            font-size: 30px;    
+            flex-direction: column;
+            font-family: cursive;
+            border: 5px;
+        }
+    }
+}
