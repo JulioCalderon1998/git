@@ -20,8 +20,7 @@
         margin-left: 20px;
         margin-right: 20px;
         .carousel{
-            width: 250px;
-            height: 250px;
+            @include tamañoImg (250px, 250px);  
         }
         .carousel :hover{
             transform: scale(1.05);
@@ -55,8 +54,7 @@
     margin-left: 20px;
     margin-right: 20px;
     .carousel{
-        width: 250px;
-        height: 250px;
+        @include tamañoImg (250px, 250px);  
     }
     .carousel :hover{
         transform: scale(1.05);
@@ -90,8 +88,7 @@
         margin-left: 20px;
         margin-right: 20px;
         .carousel{
-            width: 280px;
-            height: 280px;
+            @include tamañoImg (280px, 280px);  
         }
         .carousel :hover{
             transform: scale(1.05);
@@ -124,8 +121,7 @@
         margin-left: 20px;
         margin-right: 20px;
         .carousel{
-            width: 300px;
-            height: 300px;
+            @include tamañoImg (300px, 300px);  
         }
         .carousel :hover{
             transform: scale(1.05);

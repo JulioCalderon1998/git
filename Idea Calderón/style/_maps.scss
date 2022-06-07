@@ -1,0 +1,27 @@
+
+/* MAPS */
+
+$redes:(
+    facebook: rgb(66, 66, 211),
+    instagram: rgb(238, 136, 196),
+    whatsapp: rgb(83, 226, 83)
+);
+
+@each $red, $color in $redes {
+    .btn-#{$red}{
+        background-color: $color;
+        background-image: url('../img/#{$red}.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+
+
+/* MIXIN */
+
+@mixin tamañoImg ($height, $width) {
+    height: $height;
+    width: $width;
+}
+

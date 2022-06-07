@@ -5,6 +5,17 @@
     margin:0;
 }
 
+/* EXTEND */
+
+.botones{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+/* FIN EXTEND */
+
 main{
     grid-area: main;
     .titulo{
@@ -23,8 +34,22 @@ main{
     header{
         grid-area: header;
         background-color: rgb(136, 93, 14);
-        height: 100px;
+        height: 120px;
         background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .Redes{
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        .btn-facebook{
+            @extend.botones;
+        }
+        .btn-instagram{
+            @extend.botones;
+        }
+        .btn-whatsapp{
+            @extend.botones;
+        }
+    }
     .barrnav{
         display: flex;
         justify-content: center;
@@ -34,7 +59,7 @@ main{
             justify-content: center;
             padding: 5px;
             border: 10px;
-            margin-top: 25px;
+            margin-top: 15px;
             height: 50px;
             background-color: #e6c88a;
         
@@ -84,8 +109,22 @@ main{
     header{
         grid-area: header;
         background-color: rgb(136, 93, 14);
-        height: 100px;
+        height: 130px;
         background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .Redes{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        .btn-facebook{
+            @extend.botones;
+        }
+        .btn-instagram{
+            @extend.botones;
+        }
+        .btn-whatsapp{
+            @extend.botones;
+        }
+    }
     .barrnav{
         display: flex;
         justify-content: center;
@@ -95,7 +134,7 @@ main{
             justify-content: center;
             padding: 5px;
             border: 10px;
-            margin-top: 25px;
+            margin-top: 15px;
             height: 50px;
             background-color: #e6c88a;
         
@@ -144,8 +183,22 @@ main{
     header{
         grid-area: header;
         background-color: rgb(136, 93, 14);
-        height: 100px;
+        height: 150px;
         background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .Redes{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        .btn-facebook{
+            @extend.botones;
+        }
+        .btn-instagram{
+            @extend.botones;
+        }
+        .btn-whatsapp{
+            @extend.botones;
+        }
+    }
     .barrnav{
         display: flex;
         justify-content: center;
@@ -155,7 +208,7 @@ main{
             justify-content: center;
             padding: 5px;
             border: 10px;
-            margin-top: 25px;
+            margin-top: 15px;
             height: 50px;
             background-color: #e6c88a;
         
@@ -206,8 +259,22 @@ main{
     header{
         grid-area: header;
         background-color: rgb(136, 93, 14);
-        height: 130px;
+        height: 150px;
         background-image: linear-gradient(to bottom, rgb(136, 93, 14),rgb(247, 213, 164));
+    .Redes{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        .btn-facebook{
+            @extend.botones;
+        }
+        .btn-instagram{
+            @extend.botones;
+        }
+        .btn-whatsapp{
+            @extend.botones;
+        }
+    }
     .barrnav{
         display: flex;
         justify-content: center;
@@ -217,7 +284,7 @@ main{
             justify-content: center;
             padding: 10px;
             border: 10px;
-            margin-top: 20px;
+            margin-top: 10px;
             height: 80px;
             background-color: #e6c88a;
         

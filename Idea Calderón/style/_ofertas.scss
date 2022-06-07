@@ -17,8 +17,7 @@
 
 @media(max-width: 480px){
     .grupoofert img{
-        width: 250px;
-        height: 250px;
+        @include tamañoImg (250px, 250px);  
     }
 
     .grupoofert figcaption{
@@ -28,8 +27,7 @@
 
 @media(min-width: 481px){
     .grupoofert img{
-        width: 270px;
-        height: 270px;
+        @include tamañoImg (270px, 270px);  
     }
 
     .grupoofert figcaption{
@@ -39,8 +37,7 @@
 
 @media(min-width: 769px){
     .grupoofert img{
-        width: 300px;
-        height: 300px;
+        @include tamañoImg (300px, 300px);  
     }
 
     .grupoofert figcaption{
@@ -50,8 +47,7 @@
 
 @media(min-width: 1026px){
     .grupoofert img{
-        width: 300px;
-        height: 300px;
+        @include tamañoImg (300px, 300px); 
     }
 
     .grupoofert figcaption{
