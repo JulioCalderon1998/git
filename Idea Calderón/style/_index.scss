@@ -10,6 +10,13 @@
     ;
 }
 
+/* MIXIN */
+
+@mixin tamañoImg ($height, $width) {
+    height: $height;
+    width: $width;
+}
+
 @media(max-width: 480px){
     .grupo1{
         height: 600px;
