@@ -28,32 +28,41 @@
         margin-right: 20px;
         .carousel{
             @include tamañoImg (250px, 250px);  
+            border: 1px solid;
+            border-radius: 3px;
         }
         .carousel :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
         }
         .subtitulo2{
             margin-top: 10px;
             font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
-        .videoindex iframe{
-            width: 300px;
-            height: 169px;
+        .videoindex{ 
+            iframe{
+            width: 560px;
+            height: 315px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
         }
         .videoindex :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
+        }
+        .col-lg-12{
+            font-family: 'Montserrat', sans-serif;
         }
     }
 }
 
 @media(min-width: 481px){
 .grupo1{
-    height: 600px;
+    height: 700px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -62,32 +71,41 @@
     margin-right: 20px;
     .carousel{
         @include tamañoImg (250px, 250px);  
+        border: 1px solid;
+        border-radius: 3px;
     }
     .carousel :hover{
         transform: scale(1.05);
         transition-property: all;
-        transition-duration: 0.7s;
+        transition-duration: 0.4s;
     }
     .subtitulo2{
         margin-top: 10px;
         font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
-    .videoindex iframe{
-        width: 300px;
-        height: 169px;
+    .videoindex{ 
+        iframe{
+        width: 560px;
+        height: 315px;
+        border: 1px solid;
+        border-radius: 3px;
+    }
     }
     .videoindex :hover{
         transform: scale(1.05);
         transition-property: all;
-        transition-duration: 0.7s;
+        transition-duration: 0.4s;
+    }
+    .col-lg-12{
+        font-family: 'Montserrat', sans-serif;
     }
 }
 }
 
 @media(min-width: 769px){
     .grupo1{
-        height: 400px;
+        height: 800px;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -96,25 +114,34 @@
         margin-right: 20px;
         .carousel{
             @include tamañoImg (280px, 280px);  
+            border: 1px solid;
+            border-radius: 3px;
         }
         .carousel :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
         }
         .subtitulo2{
             margin-top: 10px;
             font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
-        .videoindex iframe{
-            width: 350px;
-            height: 196px;
+        .videoindex{ 
+            iframe{
+            width: 560px;
+            height: 315px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
         }
         .videoindex :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
+        }
+        .col-lg-12{
+            font-family: 'Montserrat', sans-serif;
         }
     }
 }
@@ -129,25 +156,35 @@
         margin-right: 20px;
         .carousel{
             @include tamañoImg (300px, 300px);  
+            border: 1px solid;
+            border-radius: 3px;
         }
         .carousel :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
         }
         .subtitulo2{
             margin-top: 10px;
             font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Montserrat', sans-serif;
         }
-        .videoindex iframe{
+        .videoindex{ 
+            iframe{
             width: 560px;
             height: 315px;
+            border: 1px solid;
+            border-radius: 3px;
+        }
         }
         .videoindex :hover{
             transform: scale(1.05);
             transition-property: all;
-            transition-duration: 0.7s;
+            transition-duration: 0.4s;
         }
+        .col-lg-12{
+            font-family: 'Montserrat', sans-serif;
+        }
+
     }
 }

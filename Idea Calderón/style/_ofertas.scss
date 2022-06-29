@@ -16,41 +16,120 @@
 }
 
 @media(max-width: 480px){
-    .grupoofert img{
-        @include tamañoImg (250px, 250px);  
+    .grupoofert{ 
+        img{
+        @include tamañoImg (250px, 250px); 
+        border: 1px solid;
+        border-radius: 3px;
+        }
     }
 
-    .grupoofert figcaption{
-        font-size: 12px;
+    .grupoofert{
+        figcaption{
+            font-size: 12px;
+        }
+        }
+
+    b{
+        padding: 5px;
+        border: 1px solid;
+        background-color: rgb(252, 99, 125);  
+        border-radius: 3px;
+    }
+
+    b:hover{
+        transform: scale(1.05);
+        background-color: red;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 }
 
 @media(min-width: 481px){
-    .grupoofert img{
-        @include tamañoImg (270px, 270px);  
+    .grupoofert{ 
+        img{
+        @include tamañoImg (270px, 270px); 
+        border: 1px solid;
+        border-radius: 3px;
+        }
+    }
+    .grupoofert{
+        figcaption{
+            font-size: 14px;
+        }
     }
 
-    .grupoofert figcaption{
-        font-size: 14px;
+    b{
+        padding: 5px;
+        border: 1px solid;
+        background-color: rgb(252, 99, 125);  
+        border-radius: 3px;
+    }
+
+    b:hover{
+        transform: scale(1.05);
+        background-color: red;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 }
 
 @media(min-width: 769px){
-    .grupoofert img{
+    .grupoofert{
+    img{
         @include tamañoImg (300px, 300px);  
+        border: 1px solid;
+        border-radius: 3px;
+    }
     }
 
-    .grupoofert figcaption{
-        font-size: 16px;
+    .grupoofert{
+        figcaption{
+            font-size: 16px;
+        }
+    }
+
+    b{
+        padding: 5px;
+        border: 1px solid;
+        background-color: rgb(252, 99, 125);  
+        border-radius: 3px;
+    }
+
+    b:hover{
+        transform: scale(1.05);
+        background-color: red;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 }
 
 @media(min-width: 1026px){
-    .grupoofert img{
+    .grupoofert{ 
+        img{
         @include tamañoImg (300px, 300px); 
+        border: 1px solid;
+        border-radius: 3px;
+        }
     }
 
-    .grupoofert figcaption{
+    .grupoofert{
+    figcaption{
         font-size: 20px;
+    }
+    }
+
+    b{
+        padding: 5px;
+        border: 1px solid;
+        background-color: rgb(252, 99, 125);  
+        border-radius: 3px;
+    }
+
+    b:hover{
+        transform: scale(1.05);
+        background-color: red;
+        transition-property: all;
+        transition-duration: 0.5s;
     }
 }

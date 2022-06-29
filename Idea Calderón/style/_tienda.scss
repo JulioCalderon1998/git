@@ -44,10 +44,24 @@
     .conttienda{
         margin: 20px;
         padding: 25px;
-        height: 1500px;
-        .grupotienda img{
-            @include tamañoImg (200px, 200px);  
+        height: 3700px;
+        border: 1px solid;
+        .grupotienda{ 
+            img{
+            @include tamañoImg (200px, 200px);       
+            border: 1px solid;
+            border-radius: 3px;
+            }
         }
+        figcaption {
+            margin: 10px;
+        }
+        b{
+            padding: 5px;
+            border: 1px solid;
+            background-color: rgb(41, 169, 201);  
+            border-radius: 3px;
+        } 
     }
 }
 
@@ -55,9 +69,21 @@
     .conttienda{
         margin: 20px;
         padding: 25px;
-        height: 1500px;
-        .grupotienda img{
-            @include tamañoImg (200px, 200px);          
+        height: 3700px;
+        border: 1px solid;
+        .grupotienda{ 
+            img{
+            @include tamañoImg (200px, 200px);       
+            border: 1px solid;
+            border-radius: 3px;
+            }
+        }
+        figcaption {
+            margin: 10px;
+        }
+        b{
+            padding: 5px;
+            background-color: rgb(41, 169, 201);  
         } 
     }
 }
@@ -66,9 +92,48 @@
     .conttienda{
         margin: 20px;
         padding: 25px;
-        height: 1500px;
-        .grupotienda img{
-            @include tamañoImg (300px, 300px);            
+        height: 4500px;
+        border: 1px solid;
+        .grupotienda{ 
+            img{
+            @include tamañoImg (300px, 300px);       
+            border: 1px solid;
+            border-radius: 3px;
+            }
+        }
+        figcaption {
+            margin: 10px;
+        }
+        b{
+            padding: 5px;
+            border: 1px solid;
+            background-color: rgb(41, 169, 201);  
+            border-radius: 3px;
+        } 
+    }
+}
+
+@media(min-width: 1026px){
+    .conttienda{
+        margin: 20px;
+        padding: 25px;
+        height: 2500px;
+        border: 1px solid;
+        .grupotienda{ 
+            img{
+            @include tamañoImg (300px, 300px);       
+            border: 1px solid;
+            border-radius: 3px;
+            }
+        }
+        figcaption {
+            margin: 10px;
+        }
+        b{
+            padding: 5px;
+            border: 1px solid;
+            background-color: rgb(41, 169, 201);  
+            border-radius: 3px;
         } 
     }
 }
